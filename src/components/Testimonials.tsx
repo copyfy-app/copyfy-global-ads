@@ -4,28 +4,28 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Chen",
-      role: "Performance Marketing Manager",
-      company: "TechFlow Inc.",
-      quote: "Copyfy increased our Google Ads CTR by 340% in just 2 weeks. The multilingual capabilities are game-changing for our global campaigns.",
+      name: "Ahmed Hassan",
+      role: "COD Marketing Manager",
+      company: "Middle East Imports",
+      quote: "Copyfy's COD-focused copy increased our cash-on-delivery conversion rate by 340% across 12 countries. The trust-building language is incredible.",
       rating: 5,
-      avatar: "SC"
+      avatar: "AH"
     },
     {
-      name: "Marcus Rodriguez", 
+      name: "Priya Sharma", 
       role: "E-commerce Director",
-      company: "Urban Styles",
-      quote: "We've generated over $2M in additional revenue using Copyfy's AI copy. The ROI is absolutely incredible - 15x return on our subscription.",
+      company: "India Direct Sales",
+      quote: "We've generated over $3M in COD revenue using Copyfy's AI. The local market adaptation for COD campaigns is absolutely game-changing.",
       rating: 5,
-      avatar: "MR"
+      avatar: "PS"
     },
     {
-      name: "Emma Thompson",
+      name: "Carlos Rodriguez",
       role: "Digital Marketing Lead",
-      company: "HealthFirst",
-      quote: "The time savings alone justify the cost. What used to take our team 8 hours now takes 15 minutes, and the results are consistently better.",
+      company: "Latin COD Solutions",
+      quote: "COD campaigns used to have 60% completion rates. With Copyfy's copy, we're now at 85% completion. The ROI is phenomenal.",
       rating: 5,
-      avatar: "ET"
+      avatar: "CR"
     }
   ];
 
@@ -34,10 +34,10 @@ const Testimonials = () => {
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4" 
             style={{ textShadow: '0 0 8px rgba(255, 215, 0, 0.7)' }}>
-          Trusted by 50,000+ Marketers Worldwide
+          Trusted by 25,000+ COD Marketers Worldwide
         </h2>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-          See how leading brands are achieving breakthrough results with AI-powered copywriting
+          See how leading COD brands are achieving breakthrough results with AI-powered copywriting
         </p>
       </div>
       

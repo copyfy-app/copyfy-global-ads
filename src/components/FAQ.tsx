@@ -14,28 +14,28 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "How does Copyfy's AI generate high-converting copy?",
-      answer: "Our advanced AI analyzes millions of successful Google Ads across different industries and markets. It combines proven copywriting frameworks with real-time performance data to generate copy that resonates with your target audience and drives conversions."
+      question: "What makes Copyfy perfect for COD campaigns?",
+      answer: "Our AI is specifically trained on millions of successful Cash on Delivery campaigns. It understands the unique psychology of COD customers and creates copy that builds trust, reduces payment anxiety, and increases order completion rates."
     },
     {
-      question: "Can I use Copyfy for any product or industry?",
-      answer: "Absolutely! Copyfy works across all industries - from e-commerce and SaaS to healthcare and finance. Our AI adapts to your specific product, target audience, and industry regulations to create relevant, compliant copy."
+      question: "Which countries support COD advertising?",
+      answer: "We support 100+ countries where COD is popular, including India, Middle East, Southeast Asia, Latin America, and parts of Africa. Our AI localizes copy for regional COD preferences and cultural nuances."
     },
     {
-      question: "What languages and countries are supported?",
-      answer: "We support 100+ countries with native-level translations in 50+ languages. Our AI doesn't just translate - it localizes your copy for cultural nuances, local buying behaviors, and regional preferences."
+      question: "How does COD copy differ from regular e-commerce copy?",
+      answer: "COD copy focuses on trust-building, risk reduction, and addressing payment concerns. It emphasizes product quality, reliable delivery, and easy return policies to overcome the hesitation of paying on delivery."
     },
     {
-      question: "How much can I expect my conversion rates to improve?",
-      answer: "Our users typically see 180% average CTR improvement and 240% boost in conversion rates within the first month. Results vary by industry, but 95% of users report significant ROI improvements."
+      question: "What's the typical COD conversion improvement?",
+      answer: "Our users see an average 280% improvement in COD conversion rates and 85% order completion rates. Results vary by market, but 95% of COD marketers report significant ROI improvements within 30 days."
     },
     {
-      question: "Is there a free trial available?",
-      answer: "Yes! We offer a 14-day free trial with full access to all features. No credit card required. You can generate up to 100 ad copies and see the results for yourself before committing."
+      question: "Is there a free trial for COD features?",
+      answer: "Yes! We offer a 14-day free trial with full access to all COD-specific features. No credit card required. Generate up to 100 COD ad copies and test the results before committing."
     },
     {
-      question: "What payment methods do you accept?",
-      answer: "We accept all major credit cards (Visa, MasterCard, Amex), PayPal, Stripe, and regional payment methods including PIX (Brazil), SEPA (Europe), and more. All payments are secured with enterprise-grade encryption."
+      question: "Do you support COD payment method integration?",
+      answer: "While we focus on copy generation, our platform works with all major COD payment processors including local and regional providers in each supported country."
     }
   ];
 
@@ -46,10 +46,10 @@ const FAQ = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4" 
               style={{ textShadow: '0 0 8px rgba(255, 215, 0, 0.7)' }}>
-            Frequently Asked Questions
+            COD Campaign Questions
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Everything you need to know about Copyfy's AI copywriting platform
+            Everything you need to know about creating successful Cash on Delivery campaigns
           </p>
         </div>
         
@@ -87,8 +87,8 @@ const FAQ = () => {
       {isFloating && (
         <div className="fixed bottom-24 right-6 z-40 w-96 max-h-96 bg-black/90 backdrop-blur-lg rounded-2xl border border-yellow-500/30 shadow-2xl overflow-hidden">
           <div className="p-4 border-b border-yellow-500/20">
-            <h3 className="text-yellow-500 font-bold text-lg">Quick Help</h3>
-            <p className="text-gray-300 text-sm">Get instant answers to common questions</p>
+            <h3 className="text-yellow-500 font-bold text-lg">COD Quick Help</h3>
+            <p className="text-gray-300 text-sm">Get instant answers about COD campaigns</p>
           </div>
           <div className="p-4 max-h-80 overflow-y-auto">
             <Accordion type="single" collapsible>
@@ -108,7 +108,7 @@ const FAQ = () => {
               variant="outline"
               className="w-full mt-4 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black"
             >
-              View All FAQs
+              View All COD FAQs
             </Button>
           </div>
         </div>

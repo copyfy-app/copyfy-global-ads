@@ -1,43 +1,43 @@
 
-import { Shield, Zap, Globe, TrendingUp, Clock, Users } from "lucide-react";
+import { Shield, Package, Globe, TrendingUp, Clock, Users } from "lucide-react";
 
 const WhyCopyfy = () => {
   const benefits = [
     {
-      icon: Zap,
-      title: "AI-Powered Intelligence",
-      description: "Advanced machine learning algorithms trained on millions of successful ads to generate copy that converts.",
-      metric: "340% CTR Boost"
+      icon: Package,
+      title: "COD-Optimized Copy",
+      description: "Specialized AI trained on millions of successful COD campaigns to generate copy that builds trust and drives cash-on-delivery conversions.",
+      metric: "280% COD Conversion Boost"
     },
     {
       icon: Globe,
-      title: "Global Localization",
-      description: "Native-level translations for 100+ countries with cultural adaptation and local market insights.",
-      metric: "50+ Languages"
+      title: "COD Market Localization",
+      description: "Native-level translations for 100+ COD-friendly countries with cultural adaptation and local payment preferences.",
+      metric: "50+ COD Markets"
     },
     {
       icon: TrendingUp,
-      title: "Performance Optimization",
-      description: "Real-time A/B testing and performance tracking to continuously improve your campaign results.",
-      metric: "240% ROI Increase"
+      title: "COD Performance Tracking",
+      description: "Real-time A/B testing and performance tracking specifically for COD campaigns to maximize order completion rates.",
+      metric: "340% Order Completion"
     },
     {
       icon: Clock,
-      title: "Lightning Fast",
-      description: "Generate professional ad copy in seconds, not hours. Scale your campaigns without scaling your team.",
-      metric: "15 Seconds Average"
+      title: "Instant COD Copy",
+      description: "Generate professional COD ad copy in seconds. Perfect for scaling COD campaigns across multiple markets quickly.",
+      metric: "10 Seconds Generation"
     },
     {
       icon: Shield,
-      title: "Enterprise Security",
-      description: "Bank-grade encryption, GDPR compliance, and SOC 2 certification ensure your data stays protected.",
-      metric: "99.9% Uptime"
+      title: "COD Trust Building",
+      description: "Copy templates designed to build customer confidence in COD transactions, reducing hesitation and increasing conversions.",
+      metric: "85% Trust Score"
     },
     {
       icon: Users,
-      title: "Expert Support",
-      description: "24/7 support from copywriting experts and dedicated success managers for enterprise clients.",
-      metric: "4.9/5 Support Rating"
+      title: "COD Expert Support",
+      description: "24/7 support from COD marketing experts who understand the unique challenges of cash-on-delivery campaigns.",
+      metric: "4.9/5 COD Support"
     }
   ];
 
@@ -46,10 +46,10 @@ const WhyCopyfy = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold mb-4" 
             style={{ textShadow: '0 0 8px rgba(255, 215, 0, 0.7)' }}>
-          Why Choose Copyfy?
+          Why Choose Copyfy for COD?
         </h2>
         <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-          The most advanced AI copywriting platform trusted by leading brands worldwide
+          The only AI copywriting platform specifically optimized for Cash on Delivery campaigns
         </p>
       </div>
       

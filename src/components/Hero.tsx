@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Play, Zap } from "lucide-react";
+import { ArrowRight, Play, Package } from "lucide-react";
 
 interface HeroProps {
   onGetStarted: () => void;
@@ -15,18 +15,18 @@ const Hero = ({ onGetStarted }: HeroProps) => {
       {/* Hero Content */}
       <div className="relative z-10 max-w-4xl mx-auto">
         <div className="inline-flex items-center gap-2 bg-yellow-500/10 border border-yellow-500/20 rounded-full px-4 py-2 mb-6">
-          <Zap className="h-4 w-4 text-yellow-500" />
-          <span className="text-sm font-medium text-yellow-500">AI-Powered Copywriting</span>
+          <Package className="h-4 w-4 text-yellow-500" />
+          <span className="text-sm font-medium text-yellow-500">Cash on Delivery Available</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" 
             style={{ textShadow: '0 0 30px rgba(255, 215, 0, 0.6)' }}>
           Generate High-Converting<br />
-          <span className="text-yellow-500">Google Ads Copy</span>
+          <span className="text-yellow-500">COD Ads Copy</span>
         </h1>
         
         <p className="text-xl md:text-2xl font-light max-w-3xl mx-auto mb-10 text-gray-200 leading-relaxed">
-          Create compelling ad copy for 100+ countries in seconds. Boost your conversion rates with AI-powered copywriting that speaks your audience's language.
+          Create compelling Cash on Delivery ad copy for 100+ countries. Perfect for COD campaigns that build trust and drive conversions without upfront payments.
         </p>
         
         {/* CTA Buttons */}
@@ -35,7 +35,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
             onClick={onGetStarted}
             className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg px-8 py-6 rounded-full shadow-2xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
           >
-            Start Free Trial
+            Start Creating COD Ads
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           
@@ -44,27 +44,27 @@ const Hero = ({ onGetStarted }: HeroProps) => {
             className="border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-lg px-8 py-6 rounded-full transition-all duration-300"
           >
             <Play className="mr-2 h-5 w-5" />
-            Watch Demo
+            Watch COD Demo
           </Button>
         </div>
         
         {/* Social Proof */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">50K+</div>
-            <div className="text-sm text-gray-300">Active Users</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">25K+</div>
+            <div className="text-sm text-gray-300">COD Campaigns</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">2.4M+</div>
-            <div className="text-sm text-gray-300">Ads Generated</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">1.2M+</div>
+            <div className="text-sm text-gray-300">COD Orders</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">180%</div>
-            <div className="text-sm text-gray-300">Avg. CTR Boost</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">280%</div>
+            <div className="text-sm text-gray-300">COD Conversion Boost</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">4.9/5</div>
-            <div className="text-sm text-gray-300">User Rating</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">4.8/5</div>
+            <div className="text-sm text-gray-300">COD Success Rate</div>
           </div>
         </div>
       </div>

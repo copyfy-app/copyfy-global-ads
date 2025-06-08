@@ -1,22 +1,22 @@
 
-import { ArrowRight, Target, Globe, Zap } from "lucide-react";
+import { ArrowRight, Target, Globe, Package } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: Target,
-      title: "Define Your Campaign",
-      description: "Input your product details, target audience, and campaign objectives. Our AI analyzes your requirements to understand your unique value proposition."
+      title: "Define Your COD Product",
+      description: "Input your product details, pricing, and COD terms. Our AI analyzes your requirements to understand what drives COD conversions in your market."
     },
     {
       icon: Globe, 
-      title: "Select Markets & Languages",
-      description: "Choose from 100+ countries and 50+ languages. Our AI localizes content for cultural nuances, buying behaviors, and regional preferences."
+      title: "Select COD-Friendly Markets",
+      description: "Choose from 100+ countries where COD is popular. Our AI localizes content for regional COD preferences and payment behaviors."
     },
     {
-      icon: Zap,
-      title: "Generate & Optimize", 
-      description: "Get high-converting ad copies in seconds. A/B test variations, track performance metrics, and continuously optimize for maximum ROI."
+      icon: Package,
+      title: "Generate COD-Optimized Copy", 
+      description: "Get high-converting COD ad copies that build trust and reduce cart abandonment. Perfect for markets where customers prefer to pay on delivery."
     }
   ];
 
@@ -25,10 +25,10 @@ const HowItWorks = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold mb-4" 
             style={{ textShadow: '0 0 8px rgba(255, 215, 0, 0.7)' }}>
-          How It Works
+          How COD Copy Works
         </h2>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-          Three simple steps to transform your ad performance with AI-powered copywriting
+          Three simple steps to create compelling Cash on Delivery ad copy that converts
         </p>
       </div>
       
