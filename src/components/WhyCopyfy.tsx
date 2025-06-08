@@ -1,43 +1,43 @@
 
-import { Shield, Package, Globe, TrendingUp, Clock, Users } from "lucide-react";
+import { Shield, Target, Globe, TrendingUp, Clock, Users } from "lucide-react";
 
 const WhyCopyfy = () => {
   const benefits = [
     {
-      icon: Package,
-      title: "COD-Optimized Copy",
-      description: "Specialized AI trained on millions of successful COD campaigns to generate copy that builds trust and drives cash-on-delivery conversions.",
-      metric: "280% COD Conversion Boost"
+      icon: Target,
+      title: "Google Ads COD Optimization",
+      description: "Specialized AI trained on millions of successful Google Ads COD campaigns to generate copy that maximizes affiliate conversions and order completion.",
+      metric: "340% Conversion Boost"
     },
     {
       icon: Globe,
-      title: "COD Market Localization",
-      description: "Native-level translations for 100+ COD-friendly countries with cultural adaptation and local payment preferences.",
-      metric: "50+ COD Markets"
+      title: "100+ COD Countries",
+      description: "Native-level translations for affiliate-friendly COD markets with cultural adaptation and local payment preferences optimized for Google Ads.",
+      metric: "50+ Affiliate Markets"
     },
     {
       icon: TrendingUp,
-      title: "COD Performance Tracking",
-      description: "Real-time A/B testing and performance tracking specifically for COD campaigns to maximize order completion rates.",
-      metric: "340% Order Completion"
+      title: "Affiliate ROI Tracking",
+      description: "Real-time A/B testing specifically for Google Ads COD affiliate campaigns to maximize commission rates and order completion.",
+      metric: "450% ROI Increase"
     },
     {
       icon: Clock,
-      title: "Instant COD Copy",
-      description: "Generate professional COD ad copy in seconds. Perfect for scaling COD campaigns across multiple markets quickly.",
-      metric: "10 Seconds Generation"
+      title: "Instant Campaign Copy",
+      description: "Generate professional Google Ads copy for COD affiliate offers in seconds. Perfect for scaling campaigns across multiple countries quickly.",
+      metric: "5 Seconds Generation"
     },
     {
       icon: Shield,
-      title: "COD Trust Building",
-      description: "Copy templates designed to build customer confidence in COD transactions, reducing hesitation and increasing conversions.",
-      metric: "85% Trust Score"
+      title: "Compliance & Trust",
+      description: "Copy templates designed for Google Ads compliance while building customer confidence in COD transactions, reducing affiliate campaign risks.",
+      metric: "95% Approval Rate"
     },
     {
       icon: Users,
-      title: "COD Expert Support",
-      description: "24/7 support from COD marketing experts who understand the unique challenges of cash-on-delivery campaigns.",
-      metric: "4.9/5 COD Support"
+      title: "Affiliate Expert Support",
+      description: "24/7 support from COD affiliate marketing experts who understand Google Ads policies and cash-on-delivery campaign optimization.",
+      metric: "4.9/5 Affiliate Support"
     }
   ];
 
@@ -46,10 +46,10 @@ const WhyCopyfy = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold mb-4" 
             style={{ textShadow: '0 0 8px rgba(255, 215, 0, 0.7)' }}>
-          Why Choose Copyfy for COD?
+          Why COD Affiliates Choose Copyfy
         </h2>
         <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-          The only AI copywriting platform specifically optimized for Cash on Delivery campaigns
+          The only AI copywriting platform specifically optimized for Google Ads COD affiliate campaigns
         </p>
       </div>
       

@@ -14,28 +14,28 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What makes Copyfy perfect for COD campaigns?",
-      answer: "Our AI is specifically trained on millions of successful Cash on Delivery campaigns. It understands the unique psychology of COD customers and creates copy that builds trust, reduces payment anxiety, and increases order completion rates."
+      question: "How does Copyfy help Google Ads COD affiliates?",
+      answer: "Copyfy generates Google Ads copy specifically optimized for COD affiliate campaigns. Our AI understands Google Ads policies, COD customer psychology, and affiliate compliance requirements to create high-converting campaigns that maximize your commissions."
     },
     {
-      question: "Which countries support COD advertising?",
-      answer: "We support 100+ countries where COD is popular, including India, Middle East, Southeast Asia, Latin America, and parts of Africa. Our AI localizes copy for regional COD preferences and cultural nuances."
+      question: "Which countries work best for COD affiliate campaigns?",
+      answer: "Our top-performing COD affiliate markets include Brazil, India, UAE, Mexico, Thailand, Egypt, Philippines, Malaysia, and 90+ more countries. We provide localized copy that respects cultural preferences and local Google Ads regulations."
     },
     {
-      question: "How does COD copy differ from regular e-commerce copy?",
-      answer: "COD copy focuses on trust-building, risk reduction, and addressing payment concerns. It emphasizes product quality, reliable delivery, and easy return policies to overcome the hesitation of paying on delivery."
+      question: "Will my Google Ads comply with policies using Copyfy?",
+      answer: "Yes! Our AI is trained on Google Ads policies and creates compliant copy for COD affiliate campaigns. We focus on transparency, clear value propositions, and avoid policy violations that could suspend your campaigns."
     },
     {
-      question: "What's the typical COD conversion improvement?",
-      answer: "Our users see an average 280% improvement in COD conversion rates and 85% order completion rates. Results vary by market, but 95% of COD marketers report significant ROI improvements within 30 days."
+      question: "What's the typical ROI improvement for affiliates?",
+      answer: "COD affiliates using Copyfy report an average 340% improvement in conversion rates and 450% increase in ROI. Most affiliates see significant commission increases within their first 30 days of using our platform."
     },
     {
-      question: "Is there a free trial for COD features?",
-      answer: "Yes! We offer a 14-day free trial with full access to all COD-specific features. No credit card required. Generate up to 100 COD ad copies and test the results before committing."
+      question: "Can I use Copyfy for multiple affiliate offers?",
+      answer: "Absolutely! Whether you're promoting health supplements, electronics, fashion, or any COD-compatible product, Copyfy adapts to your specific affiliate offers and generates targeted Google Ads copy for each campaign."
     },
     {
-      question: "Do you support COD payment method integration?",
-      answer: "While we focus on copy generation, our platform works with all major COD payment processors including local and regional providers in each supported country."
+      question: "Do you support affiliate network requirements?",
+      answer: "Yes, we understand major affiliate networks like ClickBank, MaxBounty, PeerFly, and regional networks. Our copy templates align with their compliance requirements while maximizing your conversion potential."
     }
   ];
 
@@ -46,10 +46,10 @@ const FAQ = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4" 
               style={{ textShadow: '0 0 8px rgba(255, 215, 0, 0.7)' }}>
-            COD Campaign Questions
+            COD Affiliate Questions
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Everything you need to know about creating successful Cash on Delivery campaigns
+            Everything you need to know about scaling Google Ads COD affiliate campaigns with Copyfy
           </p>
         </div>
         
@@ -87,8 +87,8 @@ const FAQ = () => {
       {isFloating && (
         <div className="fixed bottom-24 right-6 z-40 w-96 max-h-96 bg-black/90 backdrop-blur-lg rounded-2xl border border-yellow-500/30 shadow-2xl overflow-hidden">
           <div className="p-4 border-b border-yellow-500/20">
-            <h3 className="text-yellow-500 font-bold text-lg">COD Quick Help</h3>
-            <p className="text-gray-300 text-sm">Get instant answers about COD campaigns</p>
+            <h3 className="text-yellow-500 font-bold text-lg">COD Affiliate Quick Help</h3>
+            <p className="text-gray-300 text-sm">Get instant answers about Google Ads COD campaigns</p>
           </div>
           <div className="p-4 max-h-80 overflow-y-auto">
             <Accordion type="single" collapsible>
@@ -108,7 +108,7 @@ const FAQ = () => {
               variant="outline"
               className="w-full mt-4 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black"
             >
-              View All COD FAQs
+              View All COD Affiliate FAQs
             </Button>
           </div>
         </div>

@@ -1,22 +1,22 @@
 
-import { ArrowRight, Target, Globe, Package } from "lucide-react";
+import { ArrowRight, Target, Globe, Zap } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: Target,
-      title: "Define Your COD Product",
-      description: "Input your product details, pricing, and COD terms. Our AI analyzes your requirements to understand what drives COD conversions in your market."
+      title: "Input Your COD Offer",
+      description: "Enter your affiliate offer details, COD pricing, and target demographics. Copyfy analyzes what drives COD conversions for affiliate campaigns."
     },
     {
       icon: Globe, 
-      title: "Select COD-Friendly Markets",
-      description: "Choose from 100+ countries where COD is popular. Our AI localizes content for regional COD preferences and payment behaviors."
+      title: "Select COD Markets",
+      description: "Choose from 100+ COD-friendly countries. Our AI localizes Google Ads copy for regional preferences and affiliate compliance requirements."
     },
     {
-      icon: Package,
-      title: "Generate COD-Optimized Copy", 
-      description: "Get high-converting COD ad copies that build trust and reduce cart abandonment. Perfect for markets where customers prefer to pay on delivery."
+      icon: Zap,
+      title: "Launch Google Ads Campaigns", 
+      description: "Get high-converting Google Ads copy optimized for COD affiliate campaigns. Perfect for scaling across multiple countries with consistent performance."
     }
   ];
 
@@ -25,10 +25,10 @@ const HowItWorks = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold mb-4" 
             style={{ textShadow: '0 0 8px rgba(255, 215, 0, 0.7)' }}>
-          How COD Copy Works
+          How Copyfy Works for COD Affiliates
         </h2>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-          Three simple steps to create compelling Cash on Delivery ad copy that converts
+          Three simple steps to create compelling Google Ads copy that converts COD traffic into commissions
         </p>
       </div>
       

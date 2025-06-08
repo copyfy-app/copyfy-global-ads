@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Play, Package } from "lucide-react";
+import { ArrowRight, Play, Target, Globe } from "lucide-react";
 
 interface HeroProps {
   onGetStarted: () => void;
@@ -14,19 +14,23 @@ const Hero = ({ onGetStarted }: HeroProps) => {
       
       {/* Hero Content */}
       <div className="relative z-10 max-w-4xl mx-auto">
-        <div className="inline-flex items-center gap-2 bg-yellow-500/10 border border-yellow-500/20 rounded-full px-4 py-2 mb-6">
-          <Package className="h-4 w-4 text-yellow-500" />
-          <span className="text-sm font-medium text-yellow-500">Cash on Delivery Available</span>
+        {/* Brand Badge */}
+        <div className="inline-flex items-center gap-3 bg-yellow-500/15 border border-yellow-500/30 rounded-full px-6 py-3 mb-6">
+          <Target className="h-5 w-5 text-yellow-500" />
+          <span className="text-lg font-bold text-yellow-500">COPYFY</span>
+          <div className="w-px h-4 bg-yellow-500/40" />
+          <span className="text-sm font-medium text-yellow-300">COD Affiliate Tool</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" 
             style={{ textShadow: '0 0 30px rgba(255, 215, 0, 0.6)' }}>
-          Generate High-Converting<br />
-          <span className="text-yellow-500">COD Ads Copy</span>
+          <span className="text-yellow-500 text-6xl md:text-8xl block mb-2">COPYFY</span>
+          Google Ads Copy for<br />
+          <span className="text-yellow-500">COD Affiliates</span>
         </h1>
         
         <p className="text-xl md:text-2xl font-light max-w-3xl mx-auto mb-10 text-gray-200 leading-relaxed">
-          Create compelling Cash on Delivery ad copy for 100+ countries. Perfect for COD campaigns that build trust and drive conversions without upfront payments.
+          Generate high-converting Google Ads copy optimized for Cash on Delivery campaigns. Perfect for affiliates scaling COD offers across 100+ countries.
         </p>
         
         {/* CTA Buttons */}
@@ -35,7 +39,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
             onClick={onGetStarted}
             className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg px-8 py-6 rounded-full shadow-2xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
           >
-            Start Creating COD Ads
+            Start COD Campaigns
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           
@@ -44,27 +48,27 @@ const Hero = ({ onGetStarted }: HeroProps) => {
             className="border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-lg px-8 py-6 rounded-full transition-all duration-300"
           >
             <Play className="mr-2 h-5 w-5" />
-            Watch COD Demo
+            Watch COD Success Stories
           </Button>
         </div>
         
-        {/* Social Proof */}
+        {/* Social Proof - Affiliate Focused */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">25K+</div>
-            <div className="text-sm text-gray-300">COD Campaigns</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">50K+</div>
+            <div className="text-sm text-gray-300">COD Affiliates</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">1.2M+</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">2.5M+</div>
             <div className="text-sm text-gray-300">COD Orders</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">280%</div>
-            <div className="text-sm text-gray-300">COD Conversion Boost</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">340%</div>
+            <div className="text-sm text-gray-300">ROI Increase</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-500 mb-1">4.8/5</div>
-            <div className="text-sm text-gray-300">COD Success Rate</div>
+            <div className="text-3xl font-bold text-yellow-500 mb-1">100+</div>
+            <div className="text-sm text-gray-300">Countries</div>
           </div>
         </div>
       </div>
