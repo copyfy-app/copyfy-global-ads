@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { ArrowRight, Star, Zap } from "lucide-react";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import WhyCopyfy from "@/components/WhyCopyfy";
@@ -17,21 +18,91 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-black to-yellow-500 text-white">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-black via-black to-yellow-500/20 text-white overflow-x-hidden">
       <Hero onGetStarted={scrollToMain} />
       
-      <main id="main-content" className="flex-1 px-6 py-8 max-w-4xl mx-auto text-center">
+      {/* Trust Bar */}
+      <div className="bg-black/60 backdrop-blur-sm py-6 border-y border-yellow-500/20">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex items-center justify-center gap-8 text-sm text-gray-300">
+            <div className="flex items-center gap-2">
+              <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
+              <span>Rated 4.9/5 by 50,000+ users</span>
+            </div>
+            <div className="hidden md:block w-px h-4 bg-gray-600" />
+            <div className="flex items-center gap-2">
+              <Zap className="h-4 w-4 text-yellow-500" />
+              <span>2.4M+ ads generated</span>
+            </div>
+            <div className="hidden md:block w-px h-4 bg-gray-600" />
+            <div>Enterprise-grade security</div>
+          </div>
+        </div>
+      </div>
+      
+      <main id="main-content" className="flex-1 px-6 py-16 max-w-7xl mx-auto">
         <HowItWorks />
+        
+        {/* Mid-Content CTA */}
+        <div className="bg-gradient-to-r from-yellow-500/10 to-yellow-500/5 rounded-3xl p-12 text-center mb-20 border border-yellow-500/20">
+          <h3 className="text-3xl font-bold mb-4">Ready to 10x Your Ad Performance?</h3>
+          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            Join 50,000+ marketers who've already transformed their campaigns with AI-powered copywriting.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button 
+              onClick={scrollToTop}
+              className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg px-8 py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
+            >
+              Start Free Trial
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+            <Button 
+              variant="outline"
+              className="border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-lg px-8 py-4 rounded-full"
+            >
+              Schedule Demo
+            </Button>
+          </div>
+          <p className="text-sm text-gray-400 mt-4">No credit card required • 14-day free trial • Cancel anytime</p>
+        </div>
+        
         <WhyCopyfy />
         <Testimonials />
-        <FAQ />
         
-        <Button 
-          onClick={scrollToTop}
-          className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-xl px-10 py-6 rounded-full shadow-lg shadow-yellow-500/50 transition-all duration-300 mt-8"
-        >
-          Start Generating Now
-        </Button>
+        {/* Final CTA Section */}
+        <div className="text-center mb-16">
+          <div className="bg-black/60 backdrop-blur-sm rounded-3xl p-12 border border-yellow-500/20">
+            <h3 className="text-4xl font-bold mb-6">
+              Stop Guessing. Start Converting.
+            </h3>
+            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+              Transform your Google Ads performance with AI that understands what makes people click, engage, and buy.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+              <Button 
+                onClick={scrollToTop}
+                className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-xl px-10 py-6 rounded-full shadow-2xl shadow-yellow-500/40 transition-all duration-300 hover:scale-105"
+              >
+                Get Started Now
+                <ArrowRight className="ml-2 h-6 w-6" />
+              </Button>
+              <Button 
+                variant="outline"
+                className="border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-xl px-10 py-6 rounded-full"
+              >
+                View Pricing
+              </Button>
+            </div>
+            <div className="flex items-center justify-center gap-6 text-sm text-gray-400">
+              <span>✓ 14-day free trial</span>
+              <span>✓ No setup fees</span>
+              <span>✓ Cancel anytime</span>
+            </div>
+          </div>
+        </div>
+        
+        <FAQ />
       </main>
 
       <Footer />
