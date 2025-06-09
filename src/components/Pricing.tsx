@@ -41,94 +41,97 @@ const Pricing = () => {
 
   const renderCheckmark = (value: boolean | string) => {
     if (value === true) {
-      return <Check className="h-4 w-4 sm:h-5 sm:w-5 text-green-500" />;
+      return <Check className="h-4 w-4 text-green-500 mx-auto" />;
     } else if (value === "partial") {
-      return <span className="text-yellow-500 text-xs sm:text-sm">Partial</span>;
+      return <span className="text-yellow-500 text-xs font-medium">Partial</span>;
     } else {
-      return <X className="h-4 w-4 sm:h-5 sm:w-5 text-red-500" />;
+      return <X className="h-4 w-4 text-red-500 mx-auto" />;
     }
   };
 
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6">
+    <section className="py-8 md:py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Pricing Header */}
-        <div className="text-center mb-8 sm:mb-12">
-          <div className="inline-flex items-center gap-2 sm:gap-3 bg-yellow-500/15 border border-yellow-500/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-4 sm:mb-6">
-            <Target className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-500" />
-            <span className="text-yellow-500 font-bold text-sm sm:text-base">🎯 One-Time Payment — Lifetime Access for Only $47</span>
+        <div className="text-center mb-8 md:mb-12">
+          <div className="inline-flex items-center gap-2 md:gap-3 bg-yellow-500/15 border border-yellow-500/30 rounded-full px-3 md:px-6 py-2 md:py-3 mb-4 md:mb-6">
+            <Target className="h-4 w-4 md:h-5 md:w-5 text-yellow-500" />
+            <span className="text-yellow-500 font-bold text-xs md:text-base">🎯 One-Time Payment — Lifetime Access for Only $47</span>
           </div>
           
-          <p className="text-base sm:text-xl text-gray-200 max-w-4xl mx-auto mb-6 sm:mb-8 leading-relaxed">
+          <p className="text-sm md:text-xl text-gray-200 max-w-4xl mx-auto mb-6 md:mb-8 leading-relaxed px-2">
             💬 With Copyfy, you only pay once and get unlimited access forever. No hidden fees, no subscriptions. 
             Ideal for Google Ads and COD campaigns in over 30 countries — fully translated.
           </p>
           
           {/* Highlight Box */}
-          <div className="bg-yellow-500/20 border-2 border-yellow-500 rounded-2xl p-6 sm:p-8 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            <div className="text-yellow-500 font-bold text-lg sm:text-xl mb-2">
+          <div className="bg-yellow-500/20 border-2 border-yellow-500 rounded-xl md:rounded-2xl p-4 md:p-8 mb-6 md:mb-8 max-w-xl md:max-w-2xl mx-auto">
+            <div className="text-yellow-500 font-bold text-base md:text-xl mb-2">
               [LIFETIME DEAL]
             </div>
-            <div className="text-white text-xl sm:text-2xl font-bold">
+            <div className="text-white text-lg md:text-2xl font-bold">
               Get full access for just <span className="text-yellow-500">$47</span> — pay once, use forever.
             </div>
           </div>
           
-          <Button className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105">
+          <Button className="w-full md:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105">
             Get Lifetime Access for $47
           </Button>
         </div>
 
         {/* Comparison Table */}
-        <div className="bg-black/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl border border-yellow-500/20 overflow-hidden">
-          <div className="p-4 sm:p-6 border-b border-yellow-500/20">
-            <h3 className="text-xl sm:text-2xl font-bold text-yellow-500 text-center">
+        <div className="bg-black/60 backdrop-blur-sm rounded-xl md:rounded-3xl border border-yellow-500/20 overflow-hidden">
+          <div className="p-4 md:p-6 border-b border-yellow-500/20">
+            <h3 className="text-lg md:text-2xl font-bold text-yellow-500 text-center">
               📊 Platform Comparison
             </h3>
           </div>
           
+          {/* Mobile-optimized table container */}
           <div className="overflow-x-auto">
-            <Table>
-              <TableHeader>
-                <TableRow className="border-yellow-500/20 hover:bg-transparent">
-                  <TableHead className="text-yellow-500 font-bold text-sm sm:text-base">Platform</TableHead>
-                  <TableHead className="text-yellow-500 font-bold text-sm sm:text-base">Main Focus</TableHead>
-                  <TableHead className="text-yellow-500 font-bold text-sm sm:text-base">Price</TableHead>
-                  <TableHead className="text-yellow-500 font-bold text-sm sm:text-base">Auto Translation</TableHead>
-                  <TableHead className="text-yellow-500 font-bold text-sm sm:text-base">COD Copywriting</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {comparisonData.map((row, index) => (
-                  <TableRow 
-                    key={index} 
-                    className={`border-yellow-500/20 ${
-                      row.isHighlighted 
-                        ? 'bg-yellow-500/10 hover:bg-yellow-500/15' 
-                        : 'hover:bg-black/40'
-                    }`}
-                  >
-                    <TableCell className={`font-bold text-sm sm:text-base ${
-                      row.isHighlighted ? 'text-yellow-500' : 'text-gray-200'
-                    }`}>
-                      {row.isHighlighted && '⭐ '}{row.platform}
-                    </TableCell>
-                    <TableCell className="text-gray-300 text-sm sm:text-base">{row.focus}</TableCell>
-                    <TableCell className={`font-bold text-sm sm:text-base ${
-                      row.isHighlighted ? 'text-yellow-500' : 'text-gray-200'
-                    }`}>
-                      {row.price}
-                    </TableCell>
-                    <TableCell className="text-center">
-                      {renderCheckmark(row.autoTranslation)}
-                    </TableCell>
-                    <TableCell className="text-center">
-                      {renderCheckmark(row.codCopywriting)}
-                    </TableCell>
+            <div className="min-w-[600px]">
+              <Table>
+                <TableHeader>
+                  <TableRow className="border-yellow-500/20 hover:bg-transparent">
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4">Platform</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4">Main Focus</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4">Price</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 text-center">Auto Translation</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 text-center">COD Copywriting</TableHead>
                   </TableRow>
-                ))}
-              </TableBody>
-            </Table>
+                </TableHeader>
+                <TableBody>
+                  {comparisonData.map((row, index) => (
+                    <TableRow 
+                      key={index} 
+                      className={`border-yellow-500/20 ${
+                        row.isHighlighted 
+                          ? 'bg-yellow-500/10 hover:bg-yellow-500/15' 
+                          : 'hover:bg-black/40'
+                      }`}
+                    >
+                      <TableCell className={`font-bold text-xs md:text-base px-2 md:px-4 ${
+                        row.isHighlighted ? 'text-yellow-500' : 'text-gray-200'
+                      }`}>
+                        {row.isHighlighted && '⭐ '}{row.platform}
+                      </TableCell>
+                      <TableCell className="text-gray-300 text-xs md:text-base px-2 md:px-4">{row.focus}</TableCell>
+                      <TableCell className={`font-bold text-xs md:text-base px-2 md:px-4 ${
+                        row.isHighlighted ? 'text-yellow-500' : 'text-gray-200'
+                      }`}>
+                        {row.price}
+                      </TableCell>
+                      <TableCell className="text-center px-2 md:px-4">
+                        {renderCheckmark(row.autoTranslation)}
+                      </TableCell>
+                      <TableCell className="text-center px-2 md:px-4">
+                        {renderCheckmark(row.codCopywriting)}
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </div>
           </div>
         </div>
       </div>
