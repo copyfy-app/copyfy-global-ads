@@ -56,7 +56,7 @@ const Testimonials = () => {
       }}>
           Trusted by 50,000+ COD Affiliates Worldwide
         </h2>
-        <p className="sm:text-xl max-w-2xl mx-auto px-2 text-yellow-500 text-base font-bold">
+        <p className="sm:text-xl max-w-2xl mx-auto px-2 text-base font-bold text-yellow-500">
           See how top Google Ads affiliates are crushing COD campaigns with Copyfy across 100+ countries
         </p>
       </div>

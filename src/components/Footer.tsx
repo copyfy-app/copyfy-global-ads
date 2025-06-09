@@ -1,12 +1,8 @@
-
 const Footer = () => {
-  return (
-    <footer className="bg-black/50 px-6 py-6 text-center text-sm text-gray-300">
-      <p>
+  return <footer className="bg-black/50 px-6 py-6 text-center text-sm text-gray-300">
+      <p className="text-white font-bold">
         © 2025 Copyfy. All rights reserved.
       </p>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
