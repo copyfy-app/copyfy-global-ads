@@ -29,10 +29,10 @@ const FAQ = () => {
         <div className="text-center mb-8 sm:mb-12">
           <h2 style={{
           textShadow: '0 0 8px rgba(255, 215, 0, 0.7)'
-        }} className="text-2xl sm:text-4xl font-bold mb-2 sm:mb-4 text-stone-600">
+        }} className="text-2xl font-bold mb-2 sm:mb-4 text-stone-600 sm:text-4xl">
             Perguntas sobre Afiliados COD
           </h2>
-          <p className="sm:text-xl max-w-2xl mx-auto px-2 text-white text-base font-bold">
+          <p className="max-w-2xl mx-auto px-2 text-white text-base font-bold sm:text-xl">
             Tudo que você precisa saber sobre escalar campanhas de afiliados COD no Google Ads com Copyfy
           </p>
         </div>
