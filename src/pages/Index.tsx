@@ -1,24 +1,30 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Target } from "lucide-react";
 import Hero from "@/components/Hero";
+import Pricing from "@/components/Pricing";
 import HowItWorks from "@/components/HowItWorks";
 import WhyCopyfy from "@/components/WhyCopyfy";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+
 const Index = () => {
   const scrollToMain = () => {
     document.getElementById('main-content')?.scrollIntoView({
       behavior: 'smooth'
     });
   };
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   };
-  return <div className="min-h-screen flex flex-col bg-gradient-to-b from-black via-black to-yellow-500/20 text-white overflow-x-hidden">
+
+  return (
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-black via-black to-yellow-500/20 text-white overflow-x-hidden">
       <Hero onGetStarted={scrollToMain} />
       
       {/* Trust Bar - Affiliate Focused */}
@@ -41,6 +47,8 @@ const Index = () => {
       </div>
       
       <main id="main-content" className="flex-1 px-4 sm:px-6 py-12 sm:py-16 max-w-7xl mx-auto">
+        <Pricing />
+        
         <HowItWorks />
         
         {/* Mid-Content CTA - Affiliate Focused */}
@@ -94,6 +102,8 @@ const Index = () => {
       </main>
 
       <Footer />
-    </div>;
+    </div>
+  );
 };
+
 export default Index;
