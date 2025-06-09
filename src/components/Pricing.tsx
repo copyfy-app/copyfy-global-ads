@@ -50,7 +50,7 @@ const Pricing = () => {
   };
 
   return (
-    <section className="py-8 md:py-16 px-4">
+    <section className="py-8 md:py-16 w-full">
       <div className="max-w-6xl mx-auto">
         {/* Pricing Header */}
         <div className="text-center mb-8 md:mb-12">
@@ -65,39 +65,39 @@ const Pricing = () => {
           </p>
           
           {/* Highlight Box */}
-          <div className="bg-yellow-500/20 border-2 border-yellow-500 rounded-xl md:rounded-2xl p-4 md:p-8 mb-6 md:mb-8 max-w-xl md:max-w-2xl mx-auto">
-            <div className="text-yellow-500 font-bold text-base md:text-xl mb-2">
+          <div className="bg-yellow-500/20 border-2 border-yellow-500 rounded-xl md:rounded-2xl p-4 md:p-8 mb-6 md:mb-8 max-w-xs sm:max-w-xl md:max-w-2xl mx-auto">
+            <div className="text-yellow-500 font-bold text-sm md:text-xl mb-2">
               [LIFETIME DEAL]
             </div>
-            <div className="text-white text-lg md:text-2xl font-bold">
+            <div className="text-white text-base md:text-2xl font-bold">
               Get full access for just <span className="text-yellow-500">$47</span> — pay once, use forever.
             </div>
           </div>
           
-          <Button className="w-full md:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105">
+          <Button className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105">
             Get Lifetime Access for $47
           </Button>
         </div>
 
         {/* Comparison Table */}
-        <div className="bg-black/60 backdrop-blur-sm rounded-xl md:rounded-3xl border border-yellow-500/20 overflow-hidden">
+        <div className="bg-black/60 backdrop-blur-sm rounded-xl md:rounded-3xl border border-yellow-500/20 overflow-hidden w-full">
           <div className="p-4 md:p-6 border-b border-yellow-500/20">
             <h3 className="text-lg md:text-2xl font-bold text-yellow-500 text-center">
               📊 Platform Comparison
             </h3>
           </div>
           
-          {/* Mobile-optimized table container */}
-          <div className="overflow-x-auto">
-            <div className="min-w-[600px]">
+          {/* Mobile-optimized table container with horizontal scroll */}
+          <div className="overflow-x-auto w-full">
+            <div className="min-w-[600px] w-full">
               <Table>
                 <TableHeader>
                   <TableRow className="border-yellow-500/20 hover:bg-transparent">
-                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4">Platform</TableHead>
-                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4">Main Focus</TableHead>
-                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4">Price</TableHead>
-                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 text-center">Auto Translation</TableHead>
-                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 text-center">COD Copywriting</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 min-w-[100px]">Platform</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 min-w-[120px]">Main Focus</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 min-w-[100px]">Price</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 text-center min-w-[120px]">Auto Translation</TableHead>
+                    <TableHead className="text-yellow-500 font-bold text-xs md:text-base px-2 md:px-4 text-center min-w-[120px]">COD Copywriting</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>

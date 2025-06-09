@@ -24,11 +24,11 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-black via-black to-yellow-500/20 text-white overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-black via-black to-yellow-500/20 text-white max-w-full overflow-x-hidden">
       <Hero onGetStarted={scrollToMain} />
       
       {/* Trust Bar - Affiliate Focused */}
-      <div className="bg-black/60 backdrop-blur-sm py-4 sm:py-6 border-y border-yellow-500/20">
+      <div className="bg-black/60 backdrop-blur-sm py-4 sm:py-6 border-y border-yellow-500/20 w-full">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm text-gray-300">
             <div className="flex items-center gap-2">
@@ -46,13 +46,13 @@ const Index = () => {
         </div>
       </div>
       
-      <main id="main-content" className="flex-1 px-4 sm:px-6 py-12 sm:py-16 max-w-7xl mx-auto">
+      <main id="main-content" className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         <Pricing />
         
         <HowItWorks />
         
         {/* Mid-Content CTA - Affiliate Focused */}
-        <div className="bg-gradient-to-r from-yellow-500/10 to-yellow-500/5 rounded-2xl sm:rounded-3xl p-8 sm:p-12 text-center mb-12 sm:mb-20 border border-yellow-500/20">
+        <div className="bg-gradient-to-r from-yellow-500/10 to-yellow-500/5 rounded-2xl sm:rounded-3xl p-6 sm:p-12 text-center mb-12 sm:mb-20 border border-yellow-500/20 w-full">
           <h3 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">Ready to Scale Your COD Affiliate Empire?</h3>
           <p className="text-base sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
             Join 50,000+ Google Ads affiliates who've already transformed their COD campaigns and commission rates with Copyfy.
@@ -73,8 +73,8 @@ const Index = () => {
         <Testimonials />
         
         {/* Final CTA Section - Affiliate Focused */}
-        <div className="text-center mb-12 sm:mb-16">
-          <div className="bg-black/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-8 sm:p-12 border border-yellow-500/20">
+        <div className="text-center mb-12 sm:mb-16 w-full">
+          <div className="bg-black/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-12 border border-yellow-500/20">
             <h3 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-6">
               Stop Losing Money on Google Ads. Start Earning Big Commissions.
             </h3>
