@@ -7,6 +7,10 @@ interface HeroProps {
 }
 
 const Hero = ({ onGetStarted }: HeroProps) => {
+  const handleBuyNow = () => {
+    window.open('https://www.hotmart.com', '_blank');
+  };
+
   return (
     <header className="relative px-4 sm:px-6 py-12 sm:py-16 text-center overflow-hidden">
       {/* Background Effects */}
@@ -36,7 +40,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
         {/* CTA Buttons */}
         <div className="flex flex-col gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12 px-4">
           <Button 
-            onClick={onGetStarted}
+            onClick={handleBuyNow}
             className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full shadow-2xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
           >
             Start COD Campaigns

@@ -1,9 +1,12 @@
-
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Target, Check, X } from "lucide-react";
 
 const Pricing = () => {
+  const handleBuyNow = () => {
+    window.open('https://www.hotmart.com', '_blank');
+  };
+
   const comparisonData = [
     {
       platform: "Copyfy",
@@ -74,7 +77,10 @@ const Pricing = () => {
             </div>
           </div>
           
-          <Button className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105">
+          <Button 
+            onClick={handleBuyNow}
+            className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
+          >
             Get Lifetime Access for $47
           </Button>
         </div>
