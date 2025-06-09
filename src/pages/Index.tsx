@@ -59,14 +59,14 @@ const Index = () => {
           </p>
           <div className="flex flex-col gap-3 sm:gap-4 justify-center">
             <Button onClick={scrollToTop} className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105">
-              Start COD Campaigns
+              Get Lifetime Access for $47
               <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
             <Button variant="outline" className="w-full sm:w-auto border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full">
               View Affiliate Success Stories
             </Button>
           </div>
-          <p className="text-xs sm:text-sm text-gray-400 mt-3 sm:mt-4">No credit card required • 14-day free trial • Google Ads compliant</p>
+          <p className="text-xs sm:text-sm text-gray-400 mt-3 sm:mt-4">One-time payment • No subscriptions • Google Ads compliant</p>
         </div>
         
         <WhyCopyfy />
@@ -83,17 +83,17 @@ const Index = () => {
             </p>
             <div className="flex flex-col gap-3 sm:gap-4 justify-center mb-4 sm:mb-6">
               <Button onClick={scrollToTop} className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg sm:text-xl px-8 sm:px-10 py-4 sm:py-6 rounded-full shadow-2xl shadow-yellow-500/40 transition-all duration-300 hover:scale-105">
-                Launch COD Campaigns Now
+                Get Lifetime Access for $47
                 <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
               <Button variant="outline" className="w-full sm:w-auto border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-lg sm:text-xl px-8 sm:px-10 py-4 sm:py-6 rounded-full">
-                View Affiliate Pricing
+                View Lifetime Deal Details
               </Button>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-gray-400">
-              <span className="text-yellow-500">✓ 2-day affiliate trial</span>
-              <span className="text-yellow-500">✓ No setup fees</span>
-              <span className="text-yellow-500">✓ Cancel anytime</span>
+              <span className="text-yellow-500">✓ One-time payment</span>
+              <span className="text-yellow-500">✓ Lifetime access</span>
+              <span className="text-yellow-500">✓ No hidden fees</span>
             </div>
           </div>
         </div>
