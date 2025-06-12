@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Target, Check, X } from "lucide-react";
@@ -63,7 +64,7 @@ const Pricing = () => {
           </div>
           
           <p className="text-sm md:text-xl text-gray-200 max-w-4xl mx-auto mb-6 md:mb-8 leading-relaxed px-2">
-            💬 With Copyfy, you only pay once and get unlimited access forever. No hidden fees, no subscriptions. 
+            💬 With Copy<span className="text-white">fy</span>, you only pay once and get unlimited access forever. No hidden fees, no subscriptions. 
             Ideal for Google Ads and COD campaigns in over 30 countries — fully translated.
           </p>
           
@@ -119,7 +120,12 @@ const Pricing = () => {
                       <TableCell className={`font-bold text-xs md:text-base px-2 md:px-4 ${
                         row.isHighlighted ? 'text-yellow-500' : 'text-gray-200'
                       }`}>
-                        {row.isHighlighted && '⭐ '}{row.platform}
+                        {row.isHighlighted && '⭐ '}
+                        {row.platform === "Copyfy" ? (
+                          <>Copy<span className="text-white">fy</span></>
+                        ) : (
+                          row.platform
+                        )}
                       </TableCell>
                       <TableCell className="text-gray-300 text-xs md:text-base px-2 md:px-4">{row.focus}</TableCell>
                       <TableCell className={`font-bold text-xs md:text-base px-2 md:px-4 ${

@@ -21,14 +21,18 @@ const Hero = ({ onGetStarted }: HeroProps) => {
         {/* Brand Badge */}
         <div className="inline-flex items-center gap-2 sm:gap-3 bg-yellow-500/15 border border-yellow-500/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-4 sm:mb-6">
           <Target className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-500" />
-          <span className="text-base sm:text-lg font-bold text-yellow-500">COPYFY</span>
+          <span className="text-base sm:text-lg font-bold text-yellow-500">
+            Copy<span className="text-white">fy</span>
+          </span>
           <div className="w-px h-3 sm:h-4 bg-yellow-500/40" />
           <span className="text-xs sm:text-sm font-medium text-yellow-300">COD Affiliate Tool</span>
         </div>
         
         <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6 leading-tight" 
             style={{ textShadow: '0 0 30px rgba(255, 215, 0, 0.6)' }}>
-          <span className="text-yellow-500 text-4xl sm:text-6xl md:text-8xl block mb-1 sm:mb-2">COPYFY</span>
+          <span className="text-yellow-500 text-4xl sm:text-6xl md:text-8xl block mb-1 sm:mb-2">
+            Copy<span className="text-white">fy</span>
+          </span>
           Google Ads Copy for<br />
           <span className="text-yellow-500">COD Affiliates</span>
         </h1>
