@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Target, Globe } from "lucide-react";
 
@@ -8,7 +7,7 @@ interface HeroProps {
 
 const Hero = ({ onGetStarted }: HeroProps) => {
   const handleBuyNow = () => {
-    window.open('https://www.hotmart.com', '_blank');
+    window.open('https://pay.hotmart.com/Q100328287K', '_blank');
   };
 
   return (

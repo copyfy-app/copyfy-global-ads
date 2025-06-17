@@ -24,7 +24,7 @@ const Index = () => {
   };
 
   const handleBuyNow = () => {
-    window.open('https://www.hotmart.com', '_blank');
+    window.open('https://pay.hotmart.com/Q100328287K', '_blank');
   };
 
   return (

@@ -1,11 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Target, Check, X } from "lucide-react";
 
 const Pricing = () => {
   const handleBuyNow = () => {
-    window.open('https://www.hotmart.com', '_blank');
+    window.open('https://pay.hotmart.com/Q100328287K', '_blank');
   };
 
   const comparisonData = [
@@ -68,7 +67,6 @@ const Pricing = () => {
             Ideal for Google Ads and COD campaigns in over 30 countries — fully translated.
           </p>
           
-          {/* Highlight Box */}
           <div className="bg-yellow-500/20 border-2 border-yellow-500 rounded-xl md:rounded-2xl p-4 md:p-8 mb-6 md:mb-8 max-w-xs sm:max-w-xl md:max-w-2xl mx-auto">
             <div className="text-yellow-500 font-bold text-sm md:text-xl mb-2">
               [LIFETIME DEAL]
@@ -94,7 +92,6 @@ const Pricing = () => {
             </h3>
           </div>
           
-          {/* Mobile-optimized table container with horizontal scroll */}
           <div className="overflow-x-auto w-full">
             <div className="min-w-[600px] w-full">
               <Table>
