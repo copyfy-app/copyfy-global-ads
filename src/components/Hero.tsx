@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Target, Globe } from "lucide-react";
 
@@ -32,8 +33,9 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           <span className="text-yellow-500 text-4xl sm:text-6xl md:text-8xl block mb-1 sm:mb-2">
             Copy<span className="text-white">fy</span>
           </span>
-          Google Ads Copy for<br />
-          <span className="text-yellow-500">COD Affiliates</span>
+          Create Google Ads Copies<br />
+          Translated for Over<br />
+          <span className="text-yellow-500">100 Countries — In Seconds.</span>
         </h1>
         
         <p className="text-base sm:text-xl md:text-2xl font-light max-w-3xl mx-auto mb-6 sm:mb-10 text-gray-200 leading-relaxed px-2">
@@ -46,7 +48,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
             onClick={handleBuyNow}
             className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full shadow-2xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
           >
-            Start COD Campaigns
+            Start Generating Ads
             <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
           </Button>
           
