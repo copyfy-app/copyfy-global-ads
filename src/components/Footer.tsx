@@ -1,8 +1,33 @@
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-black/50 px-6 py-8 text-center text-sm text-gray-300">
       <div className="max-w-4xl mx-auto">
+        <div className="mb-6">
+          <div className="flex flex-wrap justify-center gap-6 mb-4">
+            <Link 
+              to="/privacy-policy.html" 
+              className="text-yellow-500 hover:text-yellow-400 transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link 
+              to="/terms.html" 
+              className="text-yellow-500 hover:text-yellow-400 transition-colors"
+            >
+              Terms of Use
+            </Link>
+            <Link 
+              to="/contact.html" 
+              className="text-yellow-500 hover:text-yellow-400 transition-colors"
+            >
+              Contact
+            </Link>
+          </div>
+        </div>
+        
         <div className="mb-4">
           <p className="text-white text-lg font-semibold mb-2">
             © 2025 Copyfy. All rights reserved.
