@@ -8,7 +8,7 @@ interface HeroProps {
 
 const Hero = ({ onGetStarted }: HeroProps) => {
   const handleBuyNow = () => {
-    window.open('https://pay.hotmart.com/Q100328287K', '_blank');
+    window.open('https://go.hotmart.com/E100479695V?redirectionUrl=https://copyfy.shop', '_blank');
   };
 
   return (

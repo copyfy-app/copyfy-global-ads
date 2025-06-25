@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Target } from "lucide-react";
 import Hero from "@/components/Hero";
@@ -24,7 +23,7 @@ const Index = () => {
   };
 
   const handleBuyNow = () => {
-    window.open('https://pay.hotmart.com/Q100328287K', '_blank');
+    window.open('https://go.hotmart.com/E100479695V?redirectionUrl=https://copyfy.shop', '_blank');
   };
 
   return (
@@ -37,7 +36,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm text-gray-300">
             <div className="flex items-center gap-2">
               <Star className="h-3 w-3 sm:h-4 sm:w-4 text-yellow-500 fill-yellow-500" />
-              <span>Rated 4.9/5 by 50,000+ COD affiliates</span>
+              <span>Rated 4.9/5 by 18,500+ COD affiliates</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-gray-600" />
             <div className="flex items-center gap-2">

@@ -49,12 +49,13 @@ const Testimonials = () => {
     avatar: "JW",
     flag: "🇲🇾"
   }];
-  return <section className="mb-12 sm:mb-20 px-4">
+  return (
+    <section className="mb-12 sm:mb-20 px-4">
       <div className="text-center mb-8 sm:mb-12">
         <h2 className="text-2xl sm:text-4xl font-bold mb-2 sm:mb-4" style={{
         textShadow: '0 0 8px rgba(255, 215, 0, 0.7)'
       }}>
-          Trusted by 50,000+ COD Affiliates Worldwide
+          Trusted by 18,500+ COD Affiliates Worldwide
         </h2>
         <p className="sm:text-xl max-w-2xl mx-auto px-2 text-base font-bold text-yellow-500">
           See how top Google Ads affiliates are crushing COD campaigns with Copyfy across 100+ countries
@@ -85,6 +86,7 @@ const Testimonials = () => {
             </div>
           </div>)}
       </div>
-    </section>;
+    </section>
+  );
 };
 export default Testimonials;
