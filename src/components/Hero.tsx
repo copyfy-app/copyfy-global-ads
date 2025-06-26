@@ -8,7 +8,11 @@ interface HeroProps {
 
 const Hero = ({ onGetStarted }: HeroProps) => {
   const handleBuyNow = () => {
-    window.open('https://go.hotmart.com/E100479695V?redirectionUrl=https://copyfy.shop', '_blank');
+    window.open('https://pay.hotmart.com/Q100328287K', '_blank');
+  };
+
+  const handleTryFree = () => {
+    window.open('https://painel.copyfy.shop', '_blank');
   };
 
   return (
@@ -53,11 +57,11 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           </Button>
           
           <Button 
-            variant="outline"
-            className="w-full sm:w-auto border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full transition-all duration-300"
+            onClick={handleTryFree}
+            className="w-full sm:w-auto bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full shadow-xl shadow-yellow-500/40 transition-all duration-300 animate-pulse hover:animate-none border-2 border-yellow-300"
           >
             <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-            Watch COD Success Stories
+            Try Free for 24 Hours
           </Button>
         </div>
         

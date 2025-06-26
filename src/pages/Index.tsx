@@ -1,5 +1,6 @@
+
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Star, Target } from "lucide-react";
+import { ArrowRight, Star, Target, Play } from "lucide-react";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import HowItWorks from "@/components/HowItWorks";
@@ -23,7 +24,11 @@ const Index = () => {
   };
 
   const handleBuyNow = () => {
-    window.open('https://go.hotmart.com/E100479695V?redirectionUrl=https://copyfy.shop', '_blank');
+    window.open('https://pay.hotmart.com/Q100328287K', '_blank');
+  };
+
+  const handleTryFree = () => {
+    window.open('https://painel.copyfy.shop', '_blank');
   };
 
   return (
@@ -65,8 +70,12 @@ const Index = () => {
               Get Lifetime Access for $47
               <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
-            <Button variant="outline" className="w-full sm:w-auto border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full">
-              View Affiliate Success Stories
+            <Button 
+              onClick={handleTryFree}
+              className="w-full sm:w-auto bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl shadow-yellow-500/40 transition-all duration-300 animate-pulse hover:animate-none border-2 border-yellow-300"
+            >
+              <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+              Try Free for 24 Hours
             </Button>
           </div>
           <p className="text-xs sm:text-sm text-gray-400 mt-3 sm:mt-4">One-time payment • No subscriptions • Google Ads compliant</p>
@@ -89,8 +98,12 @@ const Index = () => {
                 Get Lifetime Access for $47
                 <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
-              <Button variant="outline" className="w-full sm:w-auto border-2 border-yellow-500/50 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-lg sm:text-xl px-8 sm:px-10 py-4 sm:py-6 rounded-full">
-                View Lifetime Deal Details
+              <Button 
+                onClick={handleTryFree}
+                className="w-full sm:w-auto bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-bold text-lg sm:text-xl px-8 sm:px-10 py-4 sm:py-6 rounded-full shadow-xl shadow-yellow-500/40 transition-all duration-300 animate-pulse hover:animate-none border-2 border-yellow-300"
+              >
+                <Play className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
+                Try Free for 24 Hours
               </Button>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-gray-400">
