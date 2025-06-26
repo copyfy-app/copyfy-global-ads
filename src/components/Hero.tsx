@@ -58,7 +58,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           
           <Button 
             onClick={handleTryFree}
-            className="w-full sm:w-auto bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full shadow-xl shadow-yellow-500/40 transition-all duration-300 animate-pulse hover:animate-none border-2 border-yellow-300"
+            className="w-full sm:w-auto bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 rounded-full shadow-xl shadow-green-500/40 transition-all duration-300 animate-pulse hover:animate-none border-2 border-green-300"
           >
             <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
             Try Free for 24 Hours
