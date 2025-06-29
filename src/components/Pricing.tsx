@@ -1,11 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Target, Check, X } from "lucide-react";
 
 const Pricing = () => {
   const handleBuyNow = () => {
-    window.open('https://hotm.art/copyfy_generate', '_blank');
+    window.open('https://hotm.art/Copyfy-Ai', '_blank');
   };
 
   const comparisonData = [

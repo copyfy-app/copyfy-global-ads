@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Target, Play } from "lucide-react";
 import Hero from "@/components/Hero";
@@ -23,7 +24,7 @@ const Index = () => {
   };
 
   const handleBuyNow = () => {
-    window.open('https://hotm.art/copyfy_generate', '_blank');
+    window.open('https://hotm.art/Copyfy-Ai', '_blank');
   };
 
   const handleTryAI = () => {

@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Target, Globe } from "lucide-react";
 
@@ -7,7 +8,7 @@ interface HeroProps {
 
 const Hero = ({ onGetStarted }: HeroProps) => {
   const handleBuyNow = () => {
-    window.open('https://hotm.art/copyfy_generate', '_blank');
+    window.open('https://hotm.art/Copyfy-Ai', '_blank');
   };
 
   const handleTryAI = () => {
