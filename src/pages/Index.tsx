@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Target, Play } from "lucide-react";
 import Hero from "@/components/Hero";
@@ -27,8 +26,8 @@ const Index = () => {
     window.open('https://hotm.art/copyfy_generate', '_blank');
   };
 
-  const handleTryFree = () => {
-    window.open('https://painel.copyfy.shop', '_blank');
+  const handleTryAI = () => {
+    window.open('https://hotm.art/Copyfy-Ai', '_blank');
   };
 
   return (
@@ -71,11 +70,10 @@ const Index = () => {
               <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
             <Button 
-              onClick={handleTryFree}
+              onClick={handleTryAI}
               className="w-full sm:w-auto bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl shadow-green-500/40 transition-all duration-300 animate-pulse hover:animate-none border-2 border-green-300"
             >
-              <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-              Try Free for 24 Hours
+              👉 Try Copyfy with AI now!
             </Button>
           </div>
           <p className="text-xs sm:text-sm text-gray-400 mt-3 sm:mt-4">One-time payment • No subscriptions • Google Ads compliant</p>
@@ -99,11 +97,10 @@ const Index = () => {
                 <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
               <Button 
-                onClick={handleTryFree}
+                onClick={handleTryAI}
                 className="w-full sm:w-auto bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold text-lg sm:text-xl px-8 sm:px-10 py-4 sm:py-6 rounded-full shadow-xl shadow-green-500/40 transition-all duration-300 animate-pulse hover:animate-none border-2 border-green-300"
               >
-                <Play className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
-                Try Free for 24 Hours
+                👉 Try Copyfy with AI now!
               </Button>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-gray-400">
