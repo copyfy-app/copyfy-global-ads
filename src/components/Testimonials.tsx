@@ -1,53 +1,54 @@
+
 import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [{
-    name: "Carlos Rodriguez",
+    name: "Raj Patel",
     role: "Google Ads Affiliate",
-    company: "Latin America COD Network",
-    quote: "Copyfy transformed my Google Ads campaigns. My COD conversion rate jumped from 2.1% to 7.8% across Brazil, Mexico, and Argentina. The ROI is incredible.",
-    rating: 5,
-    avatar: "CR",
-    flag: "🇧🇷"
-  }, {
-    name: "Ahmed Hassan",
-    role: "Performance Marketer",
-    company: "Middle East Affiliates",
-    quote: "Running COD campaigns in UAE, Egypt, and Saudi Arabia was challenging until I found Copyfy. Now generating $50K+ monthly with Google Ads.",
-    rating: 5,
-    avatar: "AH",
-    flag: "🇦🇪"
-  }, {
-    name: "Priya Sharma",
-    role: "Digital Affiliate",
     company: "India Performance Network",
-    quote: "As a Google Ads affiliate focusing on COD, Copyfy helped me scale from $5K to $80K monthly revenue across India, Bangladesh, and Sri Lanka.",
+    quote: "Copyfy transformed my Google Ads campaigns. My COD conversion rate jumped from 2.1% to 7.8% across India, Bangladesh, and Sri Lanka. The ROI is incredible.",
     rating: 5,
-    avatar: "PS",
+    avatar: "RP",
     flag: "🇮🇳"
   }, {
-    name: "Maria Santos",
-    role: "E-commerce Affiliate",
-    company: "European COD Hub",
-    quote: "Copyfy's Google Ads copy for COD campaigns helped me expand to Portugal, Spain, and Italy. 450% increase in affiliate commissions!",
-    rating: 5,
-    avatar: "MS",
-    flag: "🇵🇹"
-  }, {
-    name: "David Kim",
-    role: "Performance Affiliate",
+    name: "Li Wei Chen",
+    role: "Performance Marketer",
     company: "Asian COD Solutions",
-    quote: "Managing Google Ads for COD across Thailand, Vietnam, and Philippines became effortless with Copyfy. Best investment for any COD affiliate.",
+    quote: "Running COD campaigns in Singapore, Malaysia, and Taiwan was challenging until I found Copyfy. Now generating $50K+ monthly with Google Ads.",
     rating: 5,
-    avatar: "DK",
+    avatar: "LC",
+    flag: "🇸🇬"
+  }, {
+    name: "Nguyen Thi Mai",
+    role: "Digital Affiliate",
+    company: "Vietnam Digital Hub",
+    quote: "As a Google Ads affiliate focusing on COD, Copyfy helped me scale from $5K to $80K monthly revenue across Vietnam, Cambodia, and Laos.",
+    rating: 5,
+    avatar: "NM",
+    flag: "🇻🇳"
+  }, {
+    name: "Maria Santos Cruz",
+    role: "E-commerce Affiliate",
+    company: "Philippines COD Network",
+    quote: "Copyfy's Google Ads copy for COD campaigns helped me expand across Philippines, Malaysia, and Indonesia. 450% increase in affiliate commissions!",
+    rating: 5,
+    avatar: "MC",
+    flag: "🇵🇭"
+  }, {
+    name: "Somchai Watanabe",
+    role: "Performance Affiliate",
+    company: "Thailand Marketing Pro",
+    quote: "Managing Google Ads for COD across Thailand, Myanmar, and Cambodia became effortless with Copyfy. Best investment for any COD affiliate.",
+    rating: 5,
+    avatar: "SW",
     flag: "🇹🇭"
   }, {
-    name: "Jennifer Wong",
+    name: "Putri Sari Dewi",
     role: "Google Ads Specialist",
-    company: "Southeast Asia Affiliates",
-    quote: "Copyfy's COD-focused copy helped me achieve 85% order completion rates on Google Ads campaigns across Malaysia, Singapore, and Indonesia.",
+    company: "Indonesia Affiliate Masters",
+    quote: "Copyfy's COD-focused copy helped me achieve 85% order completion rates on Google Ads campaigns across Indonesia, Brunei, and East Timor.",
     rating: 5,
-    avatar: "JW",
-    flag: "🇲🇾"
+    avatar: "PD",
+    flag: "🇮🇩"
   }];
   return (
     <section className="mb-12 sm:mb-20 px-4">
@@ -90,3 +91,4 @@ const Testimonials = () => {
   );
 };
 export default Testimonials;
+

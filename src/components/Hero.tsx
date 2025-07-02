@@ -1,4 +1,5 @@
 
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Target, Globe } from "lucide-react";
 
@@ -37,9 +38,9 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           <span className="text-yellow-500 text-4xl sm:text-6xl md:text-8xl block mb-1 sm:mb-2">
             Copy<span className="text-white">fy</span>
           </span>
-          Create Google Ads Copies<br />
-          Translated for Over<br />
-          <span className="text-yellow-500">100 Countries — In Seconds.</span>
+          AI Tools for Affiliates:<br />
+          Create Google Ads Copy for<br />
+          <span className="text-yellow-500">100+ Countries in Seconds</span>
         </h1>
         
         <p className="text-base sm:text-xl md:text-2xl font-light max-w-3xl mx-auto mb-6 sm:mb-10 text-gray-200 leading-relaxed px-2">
@@ -89,3 +90,4 @@ const Hero = ({ onGetStarted }: HeroProps) => {
 };
 
 export default Hero;
+

@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Target, Check, X } from "lucide-react";
@@ -11,7 +12,7 @@ const Pricing = () => {
     {
       platform: "Copyfy",
       focus: "Google Ads + Global COD",
-      price: "$47 (One-time)",
+      price: "$37 (One-time)",
       autoTranslation: true,
       codCopywriting: true,
       isHighlighted: true
@@ -59,7 +60,7 @@ const Pricing = () => {
         <div className="text-center mb-8 md:mb-12">
           <div className="inline-flex items-center gap-2 md:gap-3 bg-yellow-500/15 border border-yellow-500/30 rounded-full px-3 md:px-6 py-2 md:py-3 mb-4 md:mb-6">
             <Target className="h-4 w-4 md:h-5 md:w-5 text-yellow-500" />
-            <span className="text-yellow-500 font-bold text-xs md:text-base">🎯 One-Time Payment — Lifetime Access for Only $47</span>
+            <span className="text-yellow-500 font-bold text-xs md:text-base">🎯 One-Time Payment — Lifetime Access for Only $37</span>
           </div>
           
           <p className="text-sm md:text-xl text-gray-200 max-w-4xl mx-auto mb-6 md:mb-8 leading-relaxed px-2">
@@ -72,7 +73,7 @@ const Pricing = () => {
               [LIFETIME DEAL]
             </div>
             <div className="text-white text-base md:text-2xl font-bold">
-              Get full access for just <span className="text-yellow-500">$47</span> — pay once, use forever.
+              Get full access for just <span className="text-yellow-500">$37</span> — pay once, use forever.
             </div>
           </div>
           
@@ -80,7 +81,7 @@ const Pricing = () => {
             onClick={handleBuyNow}
             className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
           >
-            Get Lifetime Access for $47
+            Get Lifetime Access for $37
           </Button>
         </div>
 
@@ -149,3 +150,4 @@ const Pricing = () => {
 };
 
 export default Pricing;
+

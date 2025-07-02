@@ -1,4 +1,5 @@
 
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Target, Play } from "lucide-react";
 import Hero from "@/components/Hero";
@@ -67,7 +68,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col gap-3 sm:gap-4 justify-center">
             <Button onClick={handleBuyNow} className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105">
-              Get Lifetime Access for $47
+              Get Lifetime Access for $37
               <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
             <Button 
@@ -94,7 +95,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col gap-3 sm:gap-4 justify-center mb-4 sm:mb-6">
               <Button onClick={handleBuyNow} className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg sm:text-xl px-8 sm:px-10 py-4 sm:py-6 rounded-full shadow-2xl shadow-yellow-500/40 transition-all duration-300 hover:scale-105">
-                Get Lifetime Access for $47
+                Get Lifetime Access for $37
                 <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
               <Button 
@@ -121,3 +122,4 @@ const Index = () => {
 };
 
 export default Index;
+
