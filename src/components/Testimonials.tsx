@@ -1,5 +1,12 @@
 
-import { Star } from "lucide-react";
+import { Star, Flag } from "lucide-react";
+import rajImage from "@/assets/testimonial-raj.jpg";
+import liImage from "@/assets/testimonial-li.jpg";
+import nguyenImage from "@/assets/testimonial-nguyen.jpg";
+import mariaImage from "@/assets/testimonial-maria.jpg";
+import somchaiImage from "@/assets/testimonial-somchai.jpg";
+import putriImage from "@/assets/testimonial-putri.jpg";
+
 const Testimonials = () => {
   const testimonials = [{
     name: "Raj Patel",
@@ -7,7 +14,8 @@ const Testimonials = () => {
     company: "India Performance Network",
     quote: "Copyfy transformed my Google Ads campaigns. My COD conversion rate jumped from 2.1% to 7.8% across India, Bangladesh, and Sri Lanka. The ROI is incredible.",
     rating: 5,
-    avatar: "RP",
+    image: rajImage,
+    country: "India",
     flag: "🇮🇳"
   }, {
     name: "Li Wei Chen",
@@ -15,7 +23,8 @@ const Testimonials = () => {
     company: "Asian COD Solutions",
     quote: "Running COD campaigns in Singapore, Malaysia, and Taiwan was challenging until I found Copyfy. Now generating $50K+ monthly with Google Ads.",
     rating: 5,
-    avatar: "LC",
+    image: liImage,
+    country: "Singapore",
     flag: "🇸🇬"
   }, {
     name: "Nguyen Thi Mai",
@@ -23,7 +32,8 @@ const Testimonials = () => {
     company: "Vietnam Digital Hub",
     quote: "As a Google Ads affiliate focusing on COD, Copyfy helped me scale from $5K to $80K monthly revenue across Vietnam, Cambodia, and Laos.",
     rating: 5,
-    avatar: "NM",
+    image: nguyenImage,
+    country: "Vietnam",
     flag: "🇻🇳"
   }, {
     name: "Maria Santos Cruz",
@@ -31,7 +41,8 @@ const Testimonials = () => {
     company: "Philippines COD Network",
     quote: "Copyfy's Google Ads copy for COD campaigns helped me expand across Philippines, Malaysia, and Indonesia. 450% increase in affiliate commissions!",
     rating: 5,
-    avatar: "MC",
+    image: mariaImage,
+    country: "Philippines",
     flag: "🇵🇭"
   }, {
     name: "Somchai Watanabe",
@@ -39,7 +50,8 @@ const Testimonials = () => {
     company: "Thailand Marketing Pro",
     quote: "Managing Google Ads for COD across Thailand, Myanmar, and Cambodia became effortless with Copyfy. Best investment for any COD affiliate.",
     rating: 5,
-    avatar: "SW",
+    image: somchaiImage,
+    country: "Thailand",
     flag: "🇹🇭"
   }, {
     name: "Putri Sari Dewi",
@@ -47,7 +59,8 @@ const Testimonials = () => {
     company: "Indonesia Affiliate Masters",
     quote: "Copyfy's COD-focused copy helped me achieve 85% order completion rates on Google Ads campaigns across Indonesia, Brunei, and East Timor.",
     rating: 5,
-    avatar: "PD",
+    image: putriImage,
+    country: "Indonesia",
     flag: "🇮🇩"
   }];
   return (
@@ -75,13 +88,21 @@ const Testimonials = () => {
             </p>
             
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-yellow-500 rounded-full flex items-center justify-center font-bold text-black relative text-sm sm:text-base">
-                {testimonial.avatar}
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden relative border-2 border-yellow-500">
+                <img 
+                  src={testimonial.image} 
+                  alt={testimonial.name}
+                  className="w-full h-full object-cover"
+                />
                 <span className="absolute -top-1 -right-1 text-sm sm:text-lg">{testimonial.flag}</span>
               </div>
               <div>
                 <h4 className="text-yellow-500 font-semibold text-sm sm:text-base">{testimonial.name}</h4>
                 <p className="text-gray-400 text-xs sm:text-sm">{testimonial.role}</p>
+                <div className="flex items-center gap-1 text-gray-500 text-xs">
+                  <Flag className="h-3 w-3" />
+                  <span>{testimonial.country}</span>
+                </div>
                 <p className="text-gray-500 text-xs">{testimonial.company}</p>
               </div>
             </div>
