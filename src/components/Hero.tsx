@@ -47,6 +47,36 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           Generate high-converting Google Ads copy optimized for Cash on Delivery campaigns. Perfect for affiliates scaling COD offers across 100+ countries.
         </p>
         
+        {/* VSL YouTube Short Section */}
+        <div className="max-w-lg mx-auto mb-8 sm:mb-12 px-4">
+          <h2 className="text-xl sm:text-2xl font-bold mb-4 text-center text-yellow-500">
+            See how Copyfy creates Google Ads in seconds!
+          </h2>
+          <div className="relative pb-[177.78%] h-0 overflow-hidden mb-6 rounded-xl border-2 border-yellow-500/30">
+            <iframe
+              src="https://www.youtube.com/embed/8h_NmUJBjbI?feature=share"
+              title="Copyfy AI Ad Generator Short"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute top-0 left-0 w-full h-full border-none"
+            />
+          </div>
+          <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-3 mb-6 text-center">
+            <span className="text-yellow-500 font-bold">⚠️ Limited-Time Offer:</span>
+            <span className="text-gray-200"> Full access to Copyfy for only </span>
+            <span className="text-yellow-500 font-bold">$37</span>
+            <span className="text-gray-200"> – this week only!</span>
+          </div>
+          <div className="text-center">
+            <Button 
+              onClick={handleBuyNow}
+              className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-sm sm:text-base px-6 py-3 rounded-full shadow-xl shadow-yellow-500/30 transition-all duration-300 hover:scale-105"
+            >
+              Get Instant Access for $37
+            </Button>
+          </div>
+        </div>
+        
         {/* CTA Buttons */}
         <div className="flex flex-col gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12 px-4">
           <Button 
