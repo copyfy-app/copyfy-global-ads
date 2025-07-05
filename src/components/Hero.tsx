@@ -58,7 +58,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
               title="Copyfy AI Ad Generator Short"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="absolute -top-8 left-0 w-full h-[110%] border-none"
+              className="absolute -top-16 left-0 w-full h-[120%] border-none"
             />
           </div>
           <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-3 mb-6 text-center">
