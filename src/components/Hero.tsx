@@ -60,6 +60,8 @@ const Hero = ({ onGetStarted }: HeroProps) => {
               allowFullScreen
               className="absolute top-0 left-0 w-full h-full border-none"
             />
+            {/* Overlay para cobrir logo da Topview no canto inferior esquerdo */}
+            <div className="absolute bottom-0 left-0 w-16 h-8 bg-black z-10 rounded-br-sm"></div>
           </div>
           <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-3 mb-6 text-center">
             <span className="text-yellow-500 font-bold">⚠️ Limited-Time Offer:</span>
