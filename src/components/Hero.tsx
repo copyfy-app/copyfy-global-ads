@@ -54,12 +54,18 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           </h2>
           <div className="relative pb-[177.78%] h-0 overflow-hidden mb-6 rounded-xl border-2 border-yellow-500/30">
             <iframe
-              src="https://www.youtube.com/embed/8h_NmUJBjbI?feature=share&rel=0"
+              src="https://www.youtube.com/embed/pVcaYG6p0p8?feature=share&rel=0"
               title="Copyfy AI Ad Generator Short"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="absolute top-0 left-0 w-full h-full border-none"
             />
+            {/* Logo overlay to cover TopView watermark */}
+            <div className="absolute bottom-4 left-4 z-10 bg-black/80 rounded-md px-3 py-1">
+              <span className="text-yellow-500 font-bold text-sm">
+                Copy<span className="text-white">fy</span>
+              </span>
+            </div>
           </div>
           <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-3 mb-6 text-center">
             <span className="text-yellow-500 font-bold">⚠️ Limited-Time Offer:</span>
