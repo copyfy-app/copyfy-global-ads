@@ -52,7 +52,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           <h2 className="text-xl sm:text-2xl font-bold mb-4 text-center text-yellow-500">
             See how Copyfy creates Google Ads in seconds!
           </h2>
-          <div className="relative pb-[177.78%] h-0 overflow-hidden mb-6 rounded-xl border-2 border-yellow-500/30">
+          <div className="relative pb-[56.25%] h-0 overflow-hidden mb-6 rounded-xl border-2 border-yellow-500/30">
             <iframe
               src="https://www.youtube.com/embed/pVcaYG6p0p8?feature=share&rel=0"
               title="Copyfy AI Ad Generator Short"
@@ -61,7 +61,10 @@ const Hero = ({ onGetStarted }: HeroProps) => {
               className="absolute top-0 left-0 w-full h-full border-none"
             />
             {/* Logo overlay to cover TopView watermark */}
-            <div className="absolute bottom-4 left-4 z-10 bg-black/80 rounded-md px-3 py-1">
+            <div className="absolute bottom-4 left-4 z-10 bg-black rounded-lg px-3 py-2 flex items-center gap-1">
+              <div className="w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center">
+                <span className="text-black font-bold text-xs">C</span>
+              </div>
               <span className="text-yellow-500 font-bold text-sm">
                 Copy<span className="text-white">fy</span>
               </span>
