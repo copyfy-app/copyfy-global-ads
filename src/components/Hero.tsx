@@ -54,7 +54,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           </h2>
           <div className="relative pb-[56.25%] h-0 overflow-hidden mb-6 rounded-xl border-2 border-yellow-500/30">
             <iframe
-              src="https://www.youtube.com/embed/pVcaYG6p0p8?autoplay=1&rel=0&modestbranding=1&showinfo=0&controls=1"
+              src="https://www.youtube.com/embed/pVcaYG6p0p8?rel=0&modestbranding=1&showinfo=0&controls=1"
               title="Copyfy AI Ad Generator Short"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
