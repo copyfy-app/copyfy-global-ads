@@ -60,8 +60,8 @@ const Hero = ({ onGetStarted }: HeroProps) => {
               allowFullScreen
               className="absolute top-0 left-0 w-full h-full border-none"
             />
-            {/* Extended logo overlay to cover TopView watermark and avatar hands */}
-            <div className="absolute bottom-1 left-3 z-10 bg-black rounded-lg px-6 py-3 flex items-center gap-2 min-w-[180px] h-12">
+            {/* Extended logo overlay to cover TopView watermark and avatar hands - positioned to work in full-screen */}
+            <div className="absolute bottom-2 left-4 z-[9999] bg-black rounded-lg px-6 py-3 flex items-center gap-2 min-w-[180px] h-12 pointer-events-none">
               <div className="w-7 h-7 bg-yellow-500 rounded-full flex items-center justify-center">
                 <span className="text-black font-bold text-sm">C</span>
               </div>
