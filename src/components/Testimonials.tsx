@@ -1,67 +1,67 @@
 
 import { Star, Flag } from "lucide-react";
-import rajImage from "@/assets/testimonial-raj.jpg";
-import liImage from "@/assets/testimonial-li.jpg";
-import nguyenImage from "@/assets/testimonial-nguyen.jpg";
-import mariaImage from "@/assets/testimonial-maria.jpg";
-import somchaiImage from "@/assets/testimonial-somchai.jpg";
-import putriImage from "@/assets/testimonial-putri.jpg";
+import johnImage from "@/assets/testimonial-john.jpg";
+import anaImage from "@/assets/testimonial-ana.jpg";
+import klausImage from "@/assets/testimonial-klaus.jpg";
+import sarahImage from "@/assets/testimonial-sarah.jpg";
+import mikeImage from "@/assets/testimonial-mike.jpg";
+import emmaImage from "@/assets/testimonial-emma.jpg";
 
 const Testimonials = () => {
   const testimonials = [{
-    name: "Raj Patel",
+    name: "John Anderson",
     role: "Google Ads Affiliate",
-    company: "India Performance Network",
-    quote: "Copyfy transformed my Google Ads campaigns. My COD conversion rate jumped from 2.1% to 7.8% across India, Bangladesh, and Sri Lanka. The ROI is incredible.",
+    company: "USA Performance Network",
+    quote: "Copyfy transformed my Google Ads campaigns. My COD conversion rate jumped from 2.1% to 7.8% across USA, Canada, and Mexico. The ROI is incredible.",
     rating: 5,
-    image: rajImage,
-    country: "India",
-    flag: "🇮🇳"
+    image: johnImage,
+    country: "USA",
+    flag: "🇺🇸"
   }, {
-    name: "Li Wei Chen",
+    name: "Ana Silva Santos",
     role: "Performance Marketer",
-    company: "Asian COD Solutions",
-    quote: "Running COD campaigns in Singapore, Malaysia, and Taiwan was challenging until I found Copyfy. Now generating $50K+ monthly with Google Ads.",
+    company: "Brazil COD Solutions",
+    quote: "Running COD campaigns in Brazil, Argentina, and Chile was challenging until I found Copyfy. Now generating $50K+ monthly with Google Ads.",
     rating: 5,
-    image: liImage,
-    country: "Singapore",
-    flag: "🇸🇬"
+    image: anaImage,
+    country: "Brazil",
+    flag: "🇧🇷"
   }, {
-    name: "Nguyen Thi Mai",
+    name: "Klaus Mueller",
     role: "Digital Affiliate",
-    company: "Vietnam Digital Hub",
-    quote: "As a Google Ads affiliate focusing on COD, Copyfy helped me scale from $5K to $80K monthly revenue across Vietnam, Cambodia, and Laos.",
+    company: "Germany Digital Hub",
+    quote: "As a Google Ads affiliate focusing on COD, Copyfy helped me scale from $5K to $80K monthly revenue across Germany, Austria, and Switzerland.",
     rating: 5,
-    image: nguyenImage,
-    country: "Vietnam",
-    flag: "🇻🇳"
+    image: klausImage,
+    country: "Germany",
+    flag: "🇩🇪"
   }, {
-    name: "Maria Santos Cruz",
+    name: "Sarah Johnson",
     role: "E-commerce Affiliate",
-    company: "Philippines COD Network",
-    quote: "Copyfy's Google Ads copy for COD campaigns helped me expand across Philippines, Malaysia, and Indonesia. 450% increase in affiliate commissions!",
+    company: "USA COD Network",
+    quote: "Copyfy's Google Ads copy for COD campaigns helped me expand across USA, UK, and Australia. 450% increase in affiliate commissions!",
     rating: 5,
-    image: mariaImage,
-    country: "Philippines",
-    flag: "🇵🇭"
+    image: sarahImage,
+    country: "USA",
+    flag: "🇺🇸"
   }, {
-    name: "Somchai Watanabe",
+    name: "Mike Thompson",
     role: "Performance Affiliate",
-    company: "Thailand Marketing Pro",
-    quote: "Managing Google Ads for COD across Thailand, Myanmar, and Cambodia became effortless with Copyfy. Best investment for any COD affiliate.",
+    company: "Canada Marketing Pro",
+    quote: "Managing Google Ads for COD across Canada, USA, and Mexico became effortless with Copyfy. Best investment for any COD affiliate.",
     rating: 5,
-    image: somchaiImage,
-    country: "Thailand",
-    flag: "🇹🇭"
+    image: mikeImage,
+    country: "Canada",
+    flag: "🇨🇦"
   }, {
-    name: "Putri Sari Dewi",
+    name: "Emma Wilson",
     role: "Google Ads Specialist",
-    company: "Indonesia Affiliate Masters",
-    quote: "Copyfy's COD-focused copy helped me achieve 85% order completion rates on Google Ads campaigns across Indonesia, Brunei, and East Timor.",
+    company: "Australia Affiliate Masters",
+    quote: "Copyfy's COD-focused copy helped me achieve 85% order completion rates on Google Ads campaigns across Australia, New Zealand, and UK.",
     rating: 5,
-    image: putriImage,
-    country: "Indonesia",
-    flag: "🇮🇩"
+    image: emmaImage,
+    country: "Australia",
+    flag: "🇦🇺"
   }];
   return (
     <section className="mb-12 sm:mb-20 px-4">

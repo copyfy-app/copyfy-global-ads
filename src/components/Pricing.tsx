@@ -5,7 +5,7 @@ import { Target, Check, X } from "lucide-react";
 
 const Pricing = () => {
   const handleBuyNow = () => {
-    window.open('https://hotm.art/Copyfy-Ai', '_blank');
+    window.open('https://www.digistore24.com/product/623209', '_blank');
   };
 
   const comparisonData = [
