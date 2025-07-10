@@ -62,14 +62,14 @@ const Hero = ({ onGetStarted }: HeroProps) => {
               allowFullScreen>
             </iframe>
             {/* Extended logo overlay to cover TopView watermark and avatar hands - positioned to work in full-screen */}
-            <div className="absolute bottom-1 left-2 z-[9999] bg-black rounded-lg px-6 py-3 flex items-center gap-2 min-w-[180px] h-12 pointer-events-none">
-              <div className="w-7 h-7 bg-yellow-500 rounded-full flex items-center justify-center">
-                <span className="text-black font-bold text-sm">C</span>
+            <div className="absolute bottom-2 left-2 z-[9999] bg-black rounded-lg px-4 py-2 flex items-center gap-2 min-w-[150px] h-10 pointer-events-none">
+              <div className="w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center">
+                <span className="text-black font-bold text-xs">C</span>
               </div>
-              <span className="text-yellow-500 font-bold text-base">
+              <span className="text-yellow-500 font-bold text-sm">
                 Copy<span className="text-white">fy</span>
               </span>
-              <div className="w-12 h-1 bg-gradient-to-r from-yellow-500 to-transparent rounded-full ml-2"></div>
+              <div className="w-10 h-0.5 bg-gradient-to-r from-yellow-500 to-transparent rounded-full ml-2"></div>
             </div>
           </div>
           <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-3 mb-6 text-center">
