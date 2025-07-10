@@ -53,14 +53,14 @@ const Hero = ({ onGetStarted }: HeroProps) => {
             See how Copyfy creates Google Ads in seconds!
           </h2>
           <div className="relative pb-[56.25%] h-0 overflow-hidden mb-6 rounded-xl border-2 border-yellow-500/30">
-            <video 
-              controls 
-              preload="metadata" 
-              className="absolute top-0 left-0 w-full h-full object-cover"
-            >
-              <source src="/videos/vsl-copyfy.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <iframe 
+              src="https://www.youtube.com/embed/uNC4ZPnYPJc" 
+              title="Copyfy VSL" 
+              className="absolute top-0 left-0 w-full h-full object-cover rounded-xl" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen>
+            </iframe>
             {/* Extended logo overlay to cover TopView watermark and avatar hands - positioned to work in full-screen */}
             <div className="absolute bottom-1 left-2 z-[9999] bg-black rounded-lg px-6 py-3 flex items-center gap-2 min-w-[180px] h-12 pointer-events-none">
               <div className="w-7 h-7 bg-yellow-500 rounded-full flex items-center justify-center">
