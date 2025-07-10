@@ -58,7 +58,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
               preload="metadata" 
               className="absolute top-0 left-0 w-full h-full object-cover"
             >
-              <source src="/videos/f11f5f57-d8b1-4686-974c-ede004fa4c31.mp4" type="video/mp4" />
+              <source src="/videos/vsl-copyfy.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             {/* Extended logo overlay to cover TopView watermark and avatar hands - positioned to work in full-screen */}
