@@ -25,11 +25,11 @@ const Index = () => {
   };
 
   const handleBuyNow = () => {
-    window.open('https://hotm.art/Copyfy-Ai', '_blank');
+    window.open('https://www.digistore24.com/product/623209', '_blank');
   };
 
   const handleTryAI = () => {
-    window.open('https://hotm.art/Copyfy-Ai', '_blank');
+    window.open('https://www.digistore24.com/product/623209', '_blank');
   };
 
   return (
