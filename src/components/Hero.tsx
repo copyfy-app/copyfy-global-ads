@@ -9,11 +9,11 @@ interface HeroProps {
 
 const Hero = ({ onGetStarted }: HeroProps) => {
   const handleBuyNow = () => {
-    window.open('https://hotm.art/Copyfy-Ai', '_blank');
+    window.open('https://www.digistore24.com/product/623209', '_blank');
   };
 
   const handleTryAI = () => {
-    window.open('https://hotm.art/Copyfy-Ai', '_blank');
+    window.open('https://www.digistore24.com/product/623209', '_blank');
   };
 
   return (
@@ -54,14 +54,14 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           </h2>
           <div className="relative pb-[56.25%] h-0 overflow-hidden mb-6 rounded-xl border-2 border-yellow-500/30">
             <iframe
-              src="https://www.youtube.com/embed/pVcaYG6p0p8?rel=0&modestbranding=1&showinfo=0&controls=1"
+              src="https://www.youtube.com/embed/uNC4ZPnYPJc?rel=0&modestbranding=1&showinfo=0&controls=1"
               title="Copyfy AI Ad Generator Short"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="absolute top-0 left-0 w-full h-full border-none"
             />
             {/* Extended logo overlay to cover TopView watermark and avatar hands - positioned to work in full-screen */}
-            <div className="absolute bottom-2 left-4 z-[9999] bg-black rounded-lg px-6 py-3 flex items-center gap-2 min-w-[180px] h-12 pointer-events-none">
+            <div className="absolute bottom-1 left-2 z-[9999] bg-black rounded-lg px-6 py-3 flex items-center gap-2 min-w-[180px] h-12 pointer-events-none">
               <div className="w-7 h-7 bg-yellow-500 rounded-full flex items-center justify-center">
                 <span className="text-black font-bold text-sm">C</span>
               </div>
