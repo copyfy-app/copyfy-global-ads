@@ -105,6 +105,11 @@ const Index = () => {
                 👉 Try Copyfy with AI now!
               </Button>
             </div>
+            <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-4 mb-4 text-center">
+              <p className="text-yellow-400 text-lg font-bold">
+                7-day money-back guarantee. No refunds after 7 days.
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-gray-400">
               <span className="text-yellow-500">✓ One-time payment</span>
               <span className="text-yellow-500">✓ Lifetime access</span>
