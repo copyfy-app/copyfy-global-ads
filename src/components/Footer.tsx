@@ -29,15 +29,22 @@ const Footer = () => {
         </div>
         
         <div className="mb-4">
-          <p className="text-white text-lg font-semibold mb-2">
-            © 2025 Copyfy. All rights reserved.
-          </p>
-          <div className="text-xs text-gray-400 leading-relaxed">
+          <div className="text-xs text-gray-400 leading-relaxed mb-4">
             <p>Copyfy LLC</p>
             <p>548 Market Street PMB 62345</p>
             <p>San Francisco, CA 94104-5401</p>
             <p>United States</p>
           </div>
+          
+          <div className="mb-4 p-3 bg-yellow-500/10 border border-yellow-500/20 rounded-lg">
+            <p className="text-yellow-500 text-sm font-medium">
+              We offer a 7-day money-back guarantee. After 7 days, no refunds will be accepted.
+            </p>
+          </div>
+          
+          <p className="text-white text-lg font-semibold">
+            © 2025 Copyfy. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
