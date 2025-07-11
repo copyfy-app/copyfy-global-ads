@@ -16,6 +16,15 @@ const ThankYou = () => {
             </p>
           </div>
           
+          <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mb-8 text-center">
+            <p className="text-yellow-400 text-lg font-bold mb-3">
+              7-day money-back guarantee. No refunds after 7 days.
+            </p>
+            <p className="text-yellow-400 text-lg font-bold">
+              The charge will appear on your statement as Digistore24.com.
+            </p>
+          </div>
+          
           <div className="bg-black/60 backdrop-blur-sm rounded-2xl p-8 border border-yellow-500/20 mb-8">
             <h2 className="text-2xl font-bold mb-4">What's Next?</h2>
             <p className="text-gray-300 mb-6">
@@ -26,18 +35,6 @@ const ThankYou = () => {
             </p>
           </div>
           
-          <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mb-6 text-center">
-            <p className="text-yellow-400 text-lg font-bold mb-2">
-              7-day money-back guarantee. No refunds after 7 days.
-            </p>
-          </div>
-          
-          <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-6 mb-8">
-            <h3 className="text-lg font-semibold mb-2 text-blue-300">Important Billing Information</h3>
-            <p className="text-blue-200 font-medium">
-              The charge will appear on your statement as Digistore24.com.
-            </p>
-          </div>
           
           <Link to="/">
             <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-4 rounded-full">
