@@ -26,9 +26,15 @@ const ThankYou = () => {
             </p>
           </div>
           
+          <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mb-6 text-center">
+            <p className="text-yellow-400 text-lg font-bold mb-2">
+              7-day money-back guarantee. No refunds after 7 days.
+            </p>
+          </div>
+          
           <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-6 mb-8">
             <h3 className="text-lg font-semibold mb-2 text-blue-300">Important Billing Information</h3>
-            <p className="text-blue-200">
+            <p className="text-blue-200 font-medium">
               The charge will appear on your statement as Digistore24.com.
             </p>
           </div>
